@@ -1,7 +1,6 @@
-# Suggestion-Bot-
-# Discord.py bot with commands extension
+# Suggestion-Bot
+# Discord.py bot with command Suggestion
 
-Basic template for a discord bot with the commands extension and [cogs](https://discordpy.readthedocs.io/en/latest/ext/commands/cogs.html)
 
 ### Pre-Setup
 
