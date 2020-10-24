@@ -45,4 +45,6 @@ Your bot should now be good to go, with near 100% uptime.
 
 [![Run on Repl.it](http://i8.ae/a3UWz)](https://repl.it/github/hazemmeqdad/Suggestion-Bot)
 
+[![Contact with me](http://i8.ae/KmScX)](https://discordapp.com/channels/@me/740700552593145876)
+
 All rights reserved © HazemMeqdad 2020
