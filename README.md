@@ -42,4 +42,4 @@ Go to [uptimerobot.com](https://uptimerobot.com/) and create an accout if you do
 Your bot should now be good to go, with near 100% uptime.
 
 
-[![Run on Repl.it](https://repl.it/badge/github/eritislami/evobot)](https://repl.it/github/hazemmeqdad/Suggestion-Bot)
+[![Run on Repl.it](http://i8.ae/a3UWz)](https://repl.it/github/hazemmeqdad/Suggestion-Bot)
