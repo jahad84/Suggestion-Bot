@@ -15,12 +15,12 @@ Then, click copy under token to get your bot's token. Your bot's icon can also b
 
 Create a file named `.env`
 
-Add `DISCORD_BOT_SECRET=<your bot token>`
+Add `token=<your bot token>`
 
 Your .env file should look something like this:
 
 ```
-DISCORD_BOT_SECRET=<Bot token>
+token=<Bot token>
 ```
 
 After adding your bot token to your .env file, navigate to line 10 in `main.py`. Change  `487258918465306634` to your user id. To get your id, ensure developer mode is enabled (Settings->Appearance->Advanced->Developer Mode) then right-click on yourself and click copy id.
