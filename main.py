@@ -1,12 +1,25 @@
 import discord
 from discord.ext import commands
 import os
+from prettytable import PrettyTable
 
-prefix = '-'#تعديل مهم حط البرفكس حقكك
+prefix = '$' # Choose the prefix
 client = commands.Bot(command_prefix= f"{prefix}")
 client.remove_command('help')
+@client.event
+async def on_ready():
+	activity = discord.Game(name=f"{client.command_prefix}sug | suggestion to continue 🙃", type=1)
+	await client.change_presence(status=discord.Status.online, activity=activity)
+	print('==================================================')
+	tap = PrettyTable(['Name Bot', 'Tag', 'Id', 'prefix'])
+	tap.add_row([client.user.name, f'#{client.user.discriminator}', client.user.id, client.command_prefix])
+	print(tap)
+	print('==================================================')
+	print('All rights reserved © HazemMeqda 2020')
 
-@client.command()
+# All rights reserved © HazemMeqda 2020
+
+@client.command(aliases=['suggestion', 'اقتراح'])
 async def sug(ctx,* , sugg):
   channel = client.get_channel(741732875262623748) # id channel
   await ctx.channel.purge(limit=1)
@@ -24,12 +37,11 @@ async def sug_error(ctx, error):
       await ctx.send('**Please Type Your Suggestion!**')
 
 
-@client.event
-async def on_ready():
-    print("I'am ready")
-
 from dotenv import load_dotenv
 load_dotenv()
-TOKEN = os.getenv('TOKEN')
+TOKEN = os.getenv('token')
 
 client.run(TOKEN)
+
+# All rights reserved © HazemMeqda 2020
+# Contact with me: https://discordapp.com/channels/@me/740700552593145876
