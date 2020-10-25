@@ -3,4 +3,3 @@ flask
 PyNaCl
 dnspython
 prettytable
-os
