@@ -47,7 +47,9 @@ from dotenv import load_dotenv
 load_dotenv()
 TOKEN = os.getenv('token')
 
-client.run(TOKEN)
+if __name__ == "__main__":
+	client.run(TOKEN)
+
 
 # All rights reserved © HazemMeqdad 2020
 # Contact with me: https://discordapp.com/channels/@me/740700552593145876
