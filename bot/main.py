@@ -1,6 +1,5 @@
-from discord.ext import commands
 import os
-from prettytable import PrettyTable
+from discord.ext import commands
 
 prefix = '$' # Choose the prefix
 client = commands.Bot(command_prefix= f"{prefix}", case_insensitive=True)
