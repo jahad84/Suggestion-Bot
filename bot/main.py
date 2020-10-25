@@ -12,11 +12,10 @@ async def on_ready():
 	activity = discord.Game(name=f"{client.command_prefix}sug | suggestion to continue 🙃", type=1)
 	await client.change_presence(status=discord.Status.online, activity=activity)
 	print('==================================================')
-	tap = PrettyTable(['Name Bot', 'Tag', 'Id', 'prefix'])
-	tap.add_row([client.user.name, f'#{client.user.discriminator}', client.user.id, client.command_prefix])
-	print(tap)
-	print('==================================================')
+	print('online {}'.format(client.user.name))
 	print('All rights reserved © HazemMeqdad 2020')
+	print('==================================================')
+
 
 # All rights reserved © HazemMeqdad 2020
 
