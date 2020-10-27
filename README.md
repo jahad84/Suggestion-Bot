@@ -24,7 +24,7 @@ Your .env file should look something like this:
 token=<Bot token>
 ```
 
-After adding your bot token to your .env file, navigate to line 10 in `main.py`. Change  `487258918465306634` to your user id. To get your id, ensure developer mode is enabled (Settings->Appearance->Advanced->Developer Mode) then right-click on yourself and click copy id.
+After adding your bot token to your .env file, navigate to line 8 in `main.py`. Change  `487258918465306634` to your user id. To get your id, ensure developer mode is enabled (Settings->Appearance->Advanced->Developer Mode) then right-click on yourself and click copy id.
 
 When you hit start everything should startup fine.
 
