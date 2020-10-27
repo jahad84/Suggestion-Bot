@@ -30,7 +30,7 @@ When you hit start everything should startup fine.
 
 ### Thank you 😊
 
-[![Run on Repl.it](http://i8.ae/a3UWz)](https://repl.it/github/hazemmeqdad/Suggestion-Bot)
+[![Run on Repl.it](http://i8.ae/a3UWz)](https://repl.it/@hazemmeqdad/Suggestion-Bot)
 
 [![Contact with me](http://i8.ae/KmScX)](https://discordapp.com/channels/@me/740700552593145876)
 
