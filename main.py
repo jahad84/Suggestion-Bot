@@ -49,7 +49,7 @@ async def on_command_error(ctx, error):
 
 from dotenv import load_dotenv
 load_dotenv()
-TOKEN = os.getenv('BOT_TOKEN')
+TOKEN = os.getenv('token')
 
 
 client.run(TOKEN)
